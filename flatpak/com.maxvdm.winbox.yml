@@ -2,7 +2,7 @@
 # Ref: https://raw.githubusercontent.com/flathub/org.winehq.Wine/fca5b6d6c5e95db3d2515c34c80c9333e2e3537d/org.winehq.Wine.yml
 # Ref: https://ramsdenj.com/2018/03/26/packaging-pathofexile-with-flatpak.html
 
-app-id: com.darkguy2008.winbox
+app-id: com.maxvdm.winbox
 base: org.winehq.Wine
 base-version: stable-22.08
 runtime: org.freedesktop.Platform

@@ -14,16 +14,16 @@ Also, it's not published on Flathub either and it does not support connecting th
 Make sure to install flatpak-builder and org.winehq.Wine flatpak image beforehand, then run this:
 ```
 flatpak install org.winehq.Wine
-git clone --depth=1 https://github.com/darkguy2008/com.darkguy2008.winbox.git
+git clone --depth=1 https://github.com/maxvdmerwe/com.maxvdm.winbox.git
 cd com.darkguy2008.winbox
 cd flatpak
-flatpak-builder --force-clean winbox com.darkguy2008.winbox.yml
-flatpak-builder --user --install --force-clean winbox com.darkguy2008.winbox.yml
+flatpak-builder --force-clean winbox com.maxvdm.winbox.yml
+flatpak-builder --user --install --force-clean winbox com.maxvdm.winbox.yml
 ```
 
 # Running
 ```
-flatpak run com.darkguy2008.winbox
+flatpak run com.maxvdm.winbox
 ```
 
 # Have fun!
