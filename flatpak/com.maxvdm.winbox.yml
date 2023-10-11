@@ -4,9 +4,9 @@
 
 app-id: com.maxvdm.winbox
 base: org.winehq.Wine
-base-version: stable-22.08
+base-version: stable-23.08
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 finish-args:
   - --share=ipc
@@ -30,7 +30,7 @@ command: winbox.sh
 add-extensions:
   org.freedesktop.Platform.Compat.i386:
     directory: lib/i386-linux-gnu
-    version: '22.08'
+    version: '23.08'
 
   org.winehq.Wine.mono:
     directory: share/wine/mono
