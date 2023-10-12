@@ -15,7 +15,7 @@ Make sure to install flatpak-builder and org.winehq.Wine flatpak image beforehan
 ```
 flatpak install org.winehq.Wine
 git clone --depth=1 https://github.com/maxvdmerwe/com.maxvdm.winbox.git
-cd com.darkguy2008.winbox
+cd com.maxvdm.winbox
 cd flatpak
 flatpak-builder --force-clean winbox com.maxvdm.winbox.yml
 flatpak-builder --user --install --force-clean winbox com.maxvdm.winbox.yml
